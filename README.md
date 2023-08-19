@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on my Development and deployment skills<br>👯 I’m looking to collaborate on<br>🤝 I’m looking for help with<br>🌱 I’m currently learning Kunernetes and Automation tools<br>💬 Ask me about<br>⚡ Fun fact
+🔭 I’m currently working on my Development and deployment skills<br>🌱 I’m currently learning Kunernetes and Automation tools<br>I regularly write articles on ![Hashnode](shashanksblog.hashnode.dev)
 
 
 ## 🌐 Socials:
