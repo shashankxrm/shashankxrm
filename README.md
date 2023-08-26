@@ -1,5 +1,7 @@
+<p align="center"> Service to others is the rent you pay for your room here on Earth 💫 </p>
+
 # 💫 About Me:
-🔭 I’m currently working on my Development and deployment skills<br>🌱 I’m currently learning Kunernetes and Automation tools<br>I regularly write articles on ![Hashnode](shashanksblog.hashnode.dev)
+👨‍💻 I’m currently working on my Development and deployment skills.<br>👷 I’m currently learning Kunernetes and Automation tools.🔨<br>🚀 Subscribe to my <a href="https://shashanksblog.hashnode.dev/newsletter"> Newsletter on Hashnode</a> Where I regularly write articles on DevOps and Cloud Native.✍️
 
 
 ## 🌐 Socials:
