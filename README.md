@@ -26,7 +26,7 @@
 
 ###
 
-<p align="left">- 🔭 Actively working on my Development and Deployment Skills.<br>- 📚 I'm currently learning :<br>   -- DevOps Technologies and Other Automation tools. <br>-- DSA(Java)<br>- ⚡ My Learnings are around DevOps and Cloud Native.</p>
+<p align="left">- 🔭 Actively working on my Development and Deployment Skills.<br>- 📚 I'm currently learning :<br>   -- Web Dev, DevOps Technologies and Other Automation tools. <br>-- DSA(Java)<br>- ⚡ My Learnings are around DevOps and Cloud Native.</p>
 
 ###
 
