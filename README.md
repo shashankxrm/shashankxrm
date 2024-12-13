@@ -17,7 +17,10 @@
 
 - 📄 Know about my experiences [https://www.linkedin.com/in/shashankxrm/](https://www.linkedin.com/in/shashankxrm/)
 
-![Visitor Count](https : //profile-counter.glitch.me/shashankxrm/count.svg)
+<p align="center"> 
+  Visitor count since 13-12-24 <br>
+  <img src="https://profile-counter.glitch.me/shashankxrm/count.svg" />
+</p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
