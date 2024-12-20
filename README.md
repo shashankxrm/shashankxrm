@@ -206,7 +206,7 @@
 <div align="center">
       <img src="https://github-readme-stats.vercel.app/api?username=shashankxrm&show_icons=true&locale=en&theme=radical" alt="shashankxrm" /><br>
   <br>
-      <img src="https://streak-stats.demolab.com?user=shashankxrm&theme=radical" alt="GitHub Streak" />
+      <img src="https://streak-stats.demolab.com/?user=shashankxrm&theme=radical" />
       <br><br>
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shashankxrm&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
       
