@@ -14,7 +14,7 @@
 <p align="left"> <a href="https://shashankxrm.vercel.app" target="blank"><img src="https://img.shields.io/twitter/follow/shashankxrm?logo=twitter&style=for-the-badge" alt="shashankxrm" /></a> </p>
 
 - 🌱  Currently exploring  **Web3**
-- 🛠️  Building **Dynamic apps using NextJS**
+- 🛠️  Building **Dynamic apps using NextJS.**
 
 - 👨‍💻  All of my projects are available at [https://github.com/shashankxrm](https://github.com/shashankxrm)
 
