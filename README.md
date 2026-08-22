@@ -3,17 +3,14 @@
 
 <p align="center"><img src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" alt="gayathri"></p>
 
-<p align="center"> 
-  Visitor count since 13-12-24 <br>
-  <img src="https://profile-counter.glitch.me/shashankxrm/count.svg" />
-</p>
 <br>
+<p align="center">
 👨‍💻 DevOps and Cloud Native | Full-Stack Developer |  🚀 Open Source Contributor 
-<br>
+<p>
 <br>
 <p align="left"> <a href="https://shashankxrm.vercel.app" target="blank"><img src="https://img.shields.io/twitter/follow/shashankxrm?logo=twitter&style=for-the-badge" alt="shashankxrm" /></a> </p>
 
-- 🌱  Currently exploring  **Cloud NAative**
+- 🌱  Currently exploring  **Cloud Naative**
 - 🛠️  Building **Dynamic apps using NextJS.**
 
 - 👨‍💻  All of my projects are available at [https://github.com/shashankxrm](https://github.com/shashankxrm)
