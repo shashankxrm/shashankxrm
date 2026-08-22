@@ -1,5 +1,5 @@
 <h1 align="center">Shashank Reddy</h1>
-<p align="center">Software Developer</p>
+<p align="center">Software Engineer</p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" alt="gayathri"></p>
 
@@ -8,12 +8,12 @@
   <img src="https://profile-counter.glitch.me/shashankxrm/count.svg" />
 </p>
 <br>
-👨‍💻 Pre-final year @CBIT, Hyderabad India  |  🔧 Ex-Developer Intern @ Celebrare  | Ex-Project Intern @ Infosys |⚡ Full-Stack Developer |  🚀 Open Source Enthusiast 
+👨‍💻 DevOps and Cloud Native | Full-Stack Developer |  🚀 Open Source Contributor 
 <br>
 <br>
 <p align="left"> <a href="https://shashankxrm.vercel.app" target="blank"><img src="https://img.shields.io/twitter/follow/shashankxrm?logo=twitter&style=for-the-badge" alt="shashankxrm" /></a> </p>
 
-- 🌱  Currently exploring  **Web3**
+- 🌱  Currently exploring  **Cloud NAative**
 - 🛠️  Building **Dynamic apps using NextJS.**
 
 - 👨‍💻  All of my projects are available at [https://github.com/shashankxrm](https://github.com/shashankxrm)
@@ -54,9 +54,6 @@
 <div align="left">
   <a href="https://www.linkedin.com/in/shashankxrm" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-  <a href="https://x.com/shashankxrm" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
   </a>
   <a href="discordapp.com/users/1011286138117439488" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
