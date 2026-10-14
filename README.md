@@ -10,7 +10,6 @@ Software Engineer &nbsp;·&nbsp; Contributor to CNCF-hosted projects
 <a href="https://shashankxrm.vercel.app/">Portfolio</a> &nbsp;·&nbsp;
 <a href="https://www.linkedin.com/in/shashankxrm/">LinkedIn</a> &nbsp;·&nbsp;
 <a href="https://shashanksblog.hashnode.dev">Blog</a> &nbsp;
-    <!-- ·&nbsp; -->
 <!-- <a href="https://x.com/">X</a> -->
 </p>
 
