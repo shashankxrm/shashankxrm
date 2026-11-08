@@ -30,19 +30,19 @@ Merged upstream work across CNCF projects: registry security, proxy reliability,
 
 | PR | What & why | Issue | Merged |
 |---|---|:-:|:-:|
-| ⭐ [#1635](https://github.com/oras-project/oras-go/pull/1635) | **Configurable bearer-realm denylist.** Blocks token realms at loopback, link-local and cloud-metadata addresses (SSRF), with a strict mode for private ranges, and fixes split-host internal registries broken by v2.6.4. Set per registry via `BlockedRealmPrefixes` | [#1632](https://github.com/oras-project/oras-go/issues/1632) | 2026-10-21 |
-| ⭐ [#1662](https://github.com/oras-project/oras-go/pull/1662) | **Denylist in `registries.conf`.** Exposes the same policy as a `blocked-realm-prefixes` config key, inherited by mirror clients | [#1634](https://github.com/oras-project/oras-go/issues/1634) | 2026-10-22 |
-| ⭐ [#1628](https://github.com/oras-project/oras-go/pull/1628) | **Default copy concurrency 3 → 8.** About 2.2× faster (172.3 → 80.1 ms) on my 42-node, 5 ms-latency benchmark added in the PR | [#1622](https://github.com/oras-project/oras-go/issues/1622) | 2026-10-19 |
-| ⭐ [#1612](https://github.com/oras-project/oras-go/pull/1612) | **Verify `Docker-Content-Digest` on monolithic blob push.** Catches a registry that stored different bytes than were sent | [#1609](https://github.com/oras-project/oras-go/issues/1609) | 2026-10-17 |
-| ⭐ [#1615](https://github.com/oras-project/oras-go/pull/1615) | **Accept a registry-chosen digest algorithm on tag pushes**, while still verifying the content | [#1608](https://github.com/oras-project/oras-go/issues/1608) | 2026-10-18 |
-| ⭐ [#1753](https://github.com/oras-project/oras-go/pull/1753) | **`auth.json` fallback chain behind `PreferContainersAuth`.** Wires the containers/image fallback paths (`$XDG_CONFIG_HOME`, home, `$DOCKER_CONFIG`) into config loading, first match wins, opt-in so v3's Docker-first lookup doesn't silently change | [#1749](https://github.com/oras-project/oras-go/issues/1749) | 2026-11-07 |
-| ⭐ [#1727](https://github.com/oras-project/oras-go/pull/1727) | **Read PAX size-only tar blobs in TarFS.** Blobs over 8 GiB in PAX tars (`docker save`, `skopeo`) opened as empty readers, so `oras.Copy` pushed a zero-byte body. Now reads from the real data offset | [#1726](https://github.com/oras-project/oras-go/issues/1726) | 2026-10-28 |
-| [#1771](https://github.com/oras-project/oras-go/pull/1771) | Validate the OCI layout `ref.name` character set in `Store.Tag`, so names like `EVIL TAG` can't land in `index.json`; existing layouts still read | [#1770](https://github.com/oras-project/oras-go/issues/1770) | 2026-11-07 |
-| [#1750](https://github.com/oras-project/oras-go/pull/1750) | Stop reading `$XDG_RUNTIME_DIR` for `auth.json` on Darwin and FreeBSD, matching containers/image so credentials don't diverge from Podman/skopeo | [#1748](https://github.com/oras-project/oras-go/issues/1748) | 2026-11-01 |
-| [#1724](https://github.com/oras-project/oras-go/pull/1724) | Redact `refresh_token`, `id_token`, `client_secret`, `password` and `secret` in `LoggingTransport` debug bodies (defense in depth) | [#1723](https://github.com/oras-project/oras-go/issues/1723) | 2026-10-26 |
-| [#1643](https://github.com/oras-project/oras-go/pull/1643) | v2 backport: match `FilterArtifactType` against an image manifest's `artifactType` | [#1641](https://github.com/oras-project/oras-go/issues/1641) | 2026-10-20 |
-| [#1685](https://github.com/oras-project/oras-go/pull/1685) | Log every retry attempt in `ClientBuilder`, not just the final one | [#1680](https://github.com/oras-project/oras-go/issues/1680) | 2026-10-24 |
-| [#1692](https://github.com/oras-project/oras-go/pull/1692) | Reject unbracketed IPv6 registry hosts in references | [#1689](https://github.com/oras-project/oras-go/issues/1689) | 2026-10-24 |
+| ⭐ [#1635](https://github.com/oras-project/oras-go/pull/1635) | **Configurable bearer-realm denylist.** Blocks token realms at loopback, link-local and cloud-metadata addresses (SSRF), with a strict mode for private ranges, and fixes split-host internal registries broken by v2.6.4. Set per registry via `BlockedRealmPrefixes` | [#1632](https://github.com/oras-project/oras-go/issues/1632) | 2026‑10‑21 |
+| ⭐ [#1662](https://github.com/oras-project/oras-go/pull/1662) | **Denylist in `registries.conf`.** Exposes the same policy as a `blocked-realm-prefixes` config key, inherited by mirror clients | [#1634](https://github.com/oras-project/oras-go/issues/1634) | 2026‑10‑22 |
+| ⭐ [#1628](https://github.com/oras-project/oras-go/pull/1628) | **Default copy concurrency 3 → 8.** About 2.2× faster (172.3 → 80.1 ms) on my 42-node, 5 ms-latency benchmark added in the PR | [#1622](https://github.com/oras-project/oras-go/issues/1622) | 2026‑10‑19 |
+| ⭐ [#1612](https://github.com/oras-project/oras-go/pull/1612) | **Verify `Docker-Content-Digest` on monolithic blob push.** Catches a registry that stored different bytes than were sent | [#1609](https://github.com/oras-project/oras-go/issues/1609) | 2026‑10‑17 |
+| ⭐ [#1615](https://github.com/oras-project/oras-go/pull/1615) | **Accept a registry-chosen digest algorithm on tag pushes**, while still verifying the content | [#1608](https://github.com/oras-project/oras-go/issues/1608) | 2026‑10‑18 |
+| ⭐ [#1753](https://github.com/oras-project/oras-go/pull/1753) | **`auth.json` fallback chain behind `PreferContainersAuth`.** Wires the containers/image fallback paths (`$XDG_CONFIG_HOME`, home, `$DOCKER_CONFIG`) into config loading, first match wins, opt-in so v3's Docker-first lookup doesn't silently change | [#1749](https://github.com/oras-project/oras-go/issues/1749) | 2026‑11‑07 |
+| ⭐ [#1727](https://github.com/oras-project/oras-go/pull/1727) | **Read PAX size-only tar blobs in TarFS.** Blobs over 8 GiB in PAX tars (`docker save`, `skopeo`) opened as empty readers, so `oras.Copy` pushed a zero-byte body. Now reads from the real data offset | [#1726](https://github.com/oras-project/oras-go/issues/1726) | 2026‑10‑28 |
+| [#1771](https://github.com/oras-project/oras-go/pull/1771) | Validate the OCI layout `ref.name` character set in `Store.Tag`, so names like `EVIL TAG` can't land in `index.json`; existing layouts still read | [#1770](https://github.com/oras-project/oras-go/issues/1770) | 2026‑11‑07 |
+| [#1750](https://github.com/oras-project/oras-go/pull/1750) | Stop reading `$XDG_RUNTIME_DIR` for `auth.json` on Darwin and FreeBSD, matching containers/image so credentials don't diverge from Podman/skopeo | [#1748](https://github.com/oras-project/oras-go/issues/1748) | 2026‑11‑01 |
+| [#1724](https://github.com/oras-project/oras-go/pull/1724) | Redact `refresh_token`, `id_token`, `client_secret`, `password` and `secret` in `LoggingTransport` debug bodies (defense in depth) | [#1723](https://github.com/oras-project/oras-go/issues/1723) | 2026‑10‑26 |
+| [#1643](https://github.com/oras-project/oras-go/pull/1643) | v2 backport: match `FilterArtifactType` against an image manifest's `artifactType` | [#1641](https://github.com/oras-project/oras-go/issues/1641) | 2026‑10‑20 |
+| [#1685](https://github.com/oras-project/oras-go/pull/1685) | Log every retry attempt in `ClientBuilder`, not just the final one | [#1680](https://github.com/oras-project/oras-go/issues/1680) | 2026‑10‑24 |
+| [#1692](https://github.com/oras-project/oras-go/pull/1692) | Reject unbracketed IPv6 registry hosts in references | [#1689](https://github.com/oras-project/oras-go/issues/1689) | 2026‑10‑24 |
 
 ---
 
@@ -52,8 +52,8 @@ Merged upstream work across CNCF projects: registry security, proxy reliability,
 
 | PR | What & why | Issue | Merged |
 |---|---|:-:|:-:|
-| ⭐ [#1190](https://github.com/trickstercache/trickster/pull/1190) | **Sliding-window rate limiting.** Named, per-key `rate_limiters` for HTTP and TCP/UDP, layered on listeners and routes, with shared bucket tables and metrics | [#1147](https://github.com/trickstercache/trickster/issues/1147) | 2026-10-11 |
-| [#1171](https://github.com/trickstercache/trickster/pull/1171) | IP access control lists: named `ip_acls` that allow or deny clients on listeners, backends and paths, so operators don't need a second proxy | [#1148](https://github.com/trickstercache/trickster/issues/1148) | 2026-10-03 |
+| ⭐ [#1190](https://github.com/trickstercache/trickster/pull/1190) | **Sliding-window rate limiting.** Named, per-key `rate_limiters` for HTTP and TCP/UDP, layered on listeners and routes, with shared bucket tables and metrics | [#1147](https://github.com/trickstercache/trickster/issues/1147) | 2026‑10‑11 |
+| [#1171](https://github.com/trickstercache/trickster/pull/1171) | IP access control lists: named `ip_acls` that allow or deny clients on listeners, backends and paths, so operators don't need a second proxy | [#1148](https://github.com/trickstercache/trickster/issues/1148) | 2026‑10‑03 |
 
 ---
 
@@ -63,9 +63,9 @@ Merged upstream work across CNCF projects: registry security, proxy reliability,
 
 | PR | What & why | Issue | Merged |
 |---|---|:-:|:-:|
-| ⭐ [#4450](https://github.com/open-telemetry/opentelemetry-cpp/pull/4450) | **Service resource detector and builder.** `service.name` from `OTEL_SERVICE_NAME` with the spec fallback, plus a UUID `service.instance.id` cached per PID (fork-safe), on Linux, macOS and Windows | [#4414](https://github.com/open-telemetry/opentelemetry-cpp/issues/4414) | 2026-08-22 |
-| [#4440](https://github.com/open-telemetry/opentelemetry-cpp/pull/4440) | Schema default values for all declarative-config parameters. An omitted sampler ratio used to drop every trace (0.0 instead of 1.0) | [#4432](https://github.com/open-telemetry/opentelemetry-cpp/issues/4432) | 2026-08-17 |
-| [#4528](https://github.com/open-telemetry/opentelemetry-cpp/pull/4528) | Moved pkg-config generation from about 50 call sites into the component install path, with consumer tests against the installed `.pc` files | [#4503](https://github.com/open-telemetry/opentelemetry-cpp/issues/4503) | 2026-10-10 |
+| ⭐ [#4450](https://github.com/open-telemetry/opentelemetry-cpp/pull/4450) | **Service resource detector and builder.** `service.name` from `OTEL_SERVICE_NAME` with the spec fallback, plus a UUID `service.instance.id` cached per PID (fork-safe), on Linux, macOS and Windows | [#4414](https://github.com/open-telemetry/opentelemetry-cpp/issues/4414) | 2026‑08‑22 |
+| [#4440](https://github.com/open-telemetry/opentelemetry-cpp/pull/4440) | Schema default values for all declarative-config parameters. An omitted sampler ratio used to drop every trace (0.0 instead of 1.0) | [#4432](https://github.com/open-telemetry/opentelemetry-cpp/issues/4432) | 2026‑08‑17 |
+| [#4528](https://github.com/open-telemetry/opentelemetry-cpp/pull/4528) | Moved pkg-config generation from about 50 call sites into the component install path, with consumer tests against the installed `.pc` files | [#4503](https://github.com/open-telemetry/opentelemetry-cpp/issues/4503) | 2026‑10‑10 |
 
 ---
 
@@ -75,11 +75,11 @@ Merged upstream work across CNCF projects: registry security, proxy reliability,
 
 | PR | What & why | Issue | Merged |
 |---|---|:-:|:-:|
-| ⭐ [#2701](https://github.com/sustainable-computing-io/kepler/pull/2701) | **Fake GPU processes for e2e attribution.** The fake GPU meter now reports compute PIDs and utilization so GPU attribution and conservation are exercised in CI without an NVIDIA GPU; also fixed parent-first `FindWorkloadPower` in the e2e helper | [#2636](https://github.com/sustainable-computing-io/kepler/issues/2636) | 2026-11-05 |
-| [#2691](https://github.com/sustainable-computing-io/kepler/pull/2691) | Helm chart extra volumes, mounts and env, so Redfish-enabled pods can mount their BMC config instead of failing startup validation; default output unchanged | [#2676](https://github.com/sustainable-computing-io/kepler/issues/2676) | 2026-11-02 |
-| [#2607](https://github.com/sustainable-computing-io/kepler/pull/2607) | Test coverage for `PowerMonitor` shutdown and refresh error paths | [#2605](https://github.com/sustainable-computing-io/kepler/issues/2605) | 2026-10-22 |
-| [#2645](https://github.com/sustainable-computing-io/kepler/pull/2645) | Native Go fuzz tests for the cmdline, cgroup and label parsers | [#2615](https://github.com/sustainable-computing-io/kepler/issues/2615) | 2026-10-23 |
-| [#2653](https://github.com/sustainable-computing-io/kepler/pull/2653) | Upgraded the toolchain to Go 1.27 | [#2649](https://github.com/sustainable-computing-io/kepler/issues/2649) | 2026-10-25 |
+| ⭐ [#2701](https://github.com/sustainable-computing-io/kepler/pull/2701) | **Fake GPU processes for e2e attribution.** The fake GPU meter now reports compute PIDs and utilization so GPU attribution and conservation are exercised in CI without an NVIDIA GPU; also fixed parent-first `FindWorkloadPower` in the e2e helper | [#2636](https://github.com/sustainable-computing-io/kepler/issues/2636) | 2026‑11‑05 |
+| [#2691](https://github.com/sustainable-computing-io/kepler/pull/2691) | Helm chart extra volumes, mounts and env, so Redfish-enabled pods can mount their BMC config instead of failing startup validation; default output unchanged | [#2676](https://github.com/sustainable-computing-io/kepler/issues/2676) | 2026‑11‑02 |
+| [#2607](https://github.com/sustainable-computing-io/kepler/pull/2607) | Test coverage for `PowerMonitor` shutdown and refresh error paths | [#2605](https://github.com/sustainable-computing-io/kepler/issues/2605) | 2026‑10‑22 |
+| [#2645](https://github.com/sustainable-computing-io/kepler/pull/2645) | Native Go fuzz tests for the cmdline, cgroup and label parsers | [#2615](https://github.com/sustainable-computing-io/kepler/issues/2615) | 2026‑10‑23 |
+| [#2653](https://github.com/sustainable-computing-io/kepler/pull/2653) | Upgraded the toolchain to Go 1.27 | [#2649](https://github.com/sustainable-computing-io/kepler/issues/2649) | 2026‑10‑25 |
 
 ---
 
@@ -89,8 +89,8 @@ Merged upstream work across CNCF projects: registry security, proxy reliability,
 
 | PR | What & why | Issue | Merged |
 |---|---|:-:|:-:|
-| [#52209](https://github.com/keycloak/keycloak/pull/52209) | Optional OID4VCI client-scope attributes can now be unset: fixed the Admin UI and `ClientScopeAdapter`, which stored `""` instead of removing the attribute, with backend and Playwright tests | [#52190](https://github.com/keycloak/keycloak/issues/52190) | 2026-09-02 |
-| [#52453](https://github.com/keycloak/keycloak/pull/52453) | Enabled the mdoc feature in the Admin UI end-to-end test suite | [#52452](https://github.com/keycloak/keycloak/issues/52452) | 2026-09-04 |
+| [#52209](https://github.com/keycloak/keycloak/pull/52209) | Optional OID4VCI client-scope attributes can now be unset: fixed the Admin UI and `ClientScopeAdapter`, which stored `""` instead of removing the attribute, with backend and Playwright tests | [#52190](https://github.com/keycloak/keycloak/issues/52190) | 2026‑09‑02 |
+| [#52453](https://github.com/keycloak/keycloak/pull/52453) | Enabled the mdoc feature in the Admin UI end-to-end test suite | [#52452](https://github.com/keycloak/keycloak/issues/52452) | 2026‑09‑04 |
 
 ---
 
