@@ -39,11 +39,11 @@ Go &nbsp;·&nbsp; C++ &nbsp;·&nbsp; Java &nbsp;·&nbsp; Kubernetes &nbsp;·&nbs
     <td>Bearer-realm SSRF denylist, copy concurrency 3→8, push digest verification, credential-log redaction, &gt;8 GiB PAX tar reads, containers/image-compatible <code>auth.json</code> lookup, and OCI reference-name validation</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/trickstercache/trickster/pulls?q=is%3Apr+author%3Ashashankxrm+is%3Amerged"><img src="https://img.shields.io/badge/Trickster-115E59?style=for-the-badge" alt="Trickster" /></a></td>
+    <td><a href="https://github.com/trickstercache/trickster/pulls?q=is%3Apr+author%3Ashashankxrm+is%3Amerged"><img src="https://img.shields.io/badge/Trickster-115E59?style=for-the-badge" alt="Trickster" height="50" width="160" /></a></td>
     <td>Sliding-window rate limiting and IP access control lists for the proxy</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/open-telemetry/opentelemetry-cpp/pulls?q=is%3Apr+author%3Ashashankxrm+is%3Amerged"><img src="https://img.shields.io/badge/OTel%20C%2B%2B-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" alt="OpenTelemetry C++" /></a></td>
+    <td><a href="https://github.com/open-telemetry/opentelemetry-cpp/pulls?q=is%3Apr+author%3Ashashankxrm+is%3Amerged"><img src="https://img.shields.io/badge/OTel%20C%2B%2B-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" alt="OpenTelemetry C++" height="50" width="160"/></a></td>
     <td>Service resource detector, schema-correct config defaults, pkg-config packaging</td>
   </tr>
   <tr>
@@ -51,7 +51,7 @@ Go &nbsp;·&nbsp; C++ &nbsp;·&nbsp; Java &nbsp;·&nbsp; Kubernetes &nbsp;·&nbs
     <td>GPU power-attribution tests without physical hardware, Helm extra volumes, mounts and environment variables for Redfish, power-monitor error-path tests, and native Go parser fuzzing</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/keycloak/keycloak/pulls?q=is%3Apr+author%3Ashashankxrm+is%3Amerged"><img src="https://img.shields.io/badge/Keycloak-4D4D4D?style=for-the-badge&logo=keycloak&logoColor=white" alt="Keycloak" /></a></td>
+    <td><a href="https://github.com/keycloak/keycloak/pulls?q=is%3Apr+author%3Ashashankxrm+is%3Amerged"><img src="https://img.shields.io/badge/Keycloak-4D4D4D?style=for-the-badge&logo=keycloak&logoColor=white" alt="Keycloak"  height="50" width="160"/></a></td>
     <td>OID4VCI client-scope fix (Admin UI and backend), mdoc E2E coverage</td>
   </tr>
 </table>
