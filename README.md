@@ -1,8 +1,8 @@
 <h1 align="center">Shashank Reddy</h1>
 
 <p align="center">
-Platform &amp; SRE &nbsp;·&nbsp; Reliability and security of cloud-native infrastructure<br/>
-Go &nbsp;·&nbsp; C++ &nbsp;·&nbsp; Kubernetes &nbsp;·&nbsp; Observability &nbsp;·&nbsp; Contributor to CNCF projects
+Reliability and security of cloud-native infrastructure<br/>
+Go &nbsp;·&nbsp; C++ &nbsp;·&nbsp; Java &nbsp;·&nbsp; Kubernetes &nbsp;·&nbsp; Observability &nbsp;·&nbsp; Contributor to CNCF projects
 </p>
 
 <p align="center"><i>I like the unglamorous edges of infrastructure: the auth check that trusts too much, the default that's quietly too slow, the bug that only shows up under load.</i></p>
@@ -16,6 +16,7 @@ Go &nbsp;·&nbsp; C++ &nbsp;·&nbsp; Kubernetes &nbsp;·&nbsp; Observability &nb
 <p align="center">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
   <img src="https://img.shields.io/badge/-Supply%20Chain%20%2F%20OCI-0E7490?style=flat-square" alt="Supply Chain / OCI" />
   <img src="https://img.shields.io/badge/-Security-B91C1C?style=flat-square" alt="Security" />
@@ -28,12 +29,14 @@ Go &nbsp;·&nbsp; C++ &nbsp;·&nbsp; Kubernetes &nbsp;·&nbsp; Observability &nb
 
 ## Open Source Work
 
+<p align="center"><b>25 merged PRs across 5 CNCF projects</b></p>
+
 <div align="center">
 
 <table>
   <tr>
     <td><a href="https://github.com/oras-project/oras-go/pulls?q=is%3Apr+author%3Ashashankxrm+is%3Amerged"><img src="https://img.shields.io/badge/ORAS-1E3A8A?style=for-the-badge" alt="ORAS" /></a></td>
-    <td>Bearer-realm SSRF denylist, copy concurrency 3→8, and digest verification on push. Released in v3.0.0-rc.3</td>
+    <td>Bearer-realm SSRF denylist, copy concurrency 3→8, push digest verification, credential-log redaction, &gt;8 GiB PAX tar reads, containers/image-compatible <code>auth.json</code> lookup, and OCI reference-name validation</td>
   </tr>
   <tr>
     <td><a href="https://github.com/trickstercache/trickster/pulls?q=is%3Apr+author%3Ashashankxrm+is%3Amerged"><img src="https://img.shields.io/badge/Trickster-115E59?style=for-the-badge" alt="Trickster" /></a></td>
@@ -45,7 +48,7 @@ Go &nbsp;·&nbsp; C++ &nbsp;·&nbsp; Kubernetes &nbsp;·&nbsp; Observability &nb
   </tr>
   <tr>
     <td><a href="https://github.com/sustainable-computing-io/kepler/pulls?q=is%3Apr+author%3Ashashankxrm+is%3Amerged"><img src="https://img.shields.io/badge/Kepler-3F6212?style=for-the-badge" alt="Kepler" /></a></td>
-    <td>Error-path tests for the power monitor and native Go fuzzing for the resource and DCGM parsers</td>
+    <td>GPU power-attribution tests without physical hardware, Helm extra volumes, mounts and environment variables for Redfish, power-monitor error-path tests, and native Go parser fuzzing</td>
   </tr>
   <tr>
     <td><a href="https://github.com/keycloak/keycloak/pulls?q=is%3Apr+author%3Ashashankxrm+is%3Amerged"><img src="https://img.shields.io/badge/Keycloak-4D4D4D?style=for-the-badge&logo=keycloak&logoColor=white" alt="Keycloak" /></a></td>
@@ -74,7 +77,7 @@ Go &nbsp;·&nbsp; C++ &nbsp;·&nbsp; Kubernetes &nbsp;·&nbsp; Observability &nb
 
 <table>
   <tr>
-    <td align="center"><kbd><b>Languages</b></kbd><br/><br/><img src="https://skillicons.dev/icons?i=go,cpp,py,bash&perline=2" height="110" alt="Go, C++, Python, Bash" /></td>
+    <td align="center"><kbd><b>Languages</b></kbd><br/><br/><img src="https://skillicons.dev/icons?i=go,cpp,java,py,bash&perline=3" height="110" alt="Go, C++, Java, Python, Bash" /></td>
     <td align="center"><kbd><b>Cloud &amp; Infra</b></kbd><br/><br/><img src="https://skillicons.dev/icons?i=kubernetes,docker,terraform,aws,linux,githubactions&perline=3" height="110" alt="Kubernetes, Docker, Terraform, AWS, Linux, GitHub Actions" /></td>
     <td align="center"><kbd><b>Observability &amp; Data</b></kbd><br/><br/><img src="https://skillicons.dev/icons?i=prometheus,grafana,postgres,redis&perline=2" height="110" alt="Prometheus, Grafana, Postgres, Redis" /></td>
   </tr>
