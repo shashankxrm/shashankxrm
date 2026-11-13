@@ -7,11 +7,6 @@ Go &nbsp;·&nbsp; C++ &nbsp;·&nbsp; Java &nbsp;·&nbsp; Kubernetes &nbsp;·&nbs
 
 <p align="center"><i>I like the unglamorous edges of infrastructure: the auth check that trusts too much, the default that's quietly too slow, the bug that only shows up under load.</i></p>
 
-<p align="center">
-<a href="https://shashankxrm.vercel.app/">Portfolio</a> &nbsp;·&nbsp;
-<a href="https://www.linkedin.com/in/shashankxrm/">LinkedIn</a> &nbsp;·&nbsp;
-<a href="https://shashanksblog.hashnode.dev">Blog</a>
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
