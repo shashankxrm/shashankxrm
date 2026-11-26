@@ -57,15 +57,6 @@ Go &nbsp;·&nbsp; C++ &nbsp;·&nbsp; Java &nbsp;·&nbsp; Kubernetes &nbsp;·&nbs
 
 ---
 
-## Building
-
-<p align="center">
-  <a href="https://github.com/shashankxrm/deskdrop"><b>Deskdrop</b></a>: share a link from Android, open it on your Mac later.<br/>
-  A Go + Postgres queue running on k3s on Oracle Cloud's Always Free tier.
-</p>
-
----
-
 ## Stack
 
 <div align="center">
